@@ -1,0 +1,46 @@
+body{
+    display: grid;
+    grid-template-rows: 10fr 85fr 5fr;
+    background-color: #D0F0C0;
+    font-family: monospace;
+}
+header{
+    background-color: #1E4D2B;
+    color: white;
+    font-size: 5em;
+    text-align: center;
+}
+footer{
+    background-color: #1E4D2B;
+    font-size: 2em;
+    text-align: center;
+    color: white;
+}
+main{
+    display: grid;
+    grid-template-rows: 7fr 3fr;
+    background-color: #93C572;
+    font-size: 1.5em;
+}
+#map{
+    background-color: #4F7942;
+    text-align: center;
+}
+#products{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    background-color: #4F7942;
+}
+#product{
+    background-color: #5A8C4B;
+    text-align: center;
+    border: 1px solid #1E4D2B;
+}
+hr{
+    border:2px solid #4F7942;
+}
+
+img{
+    width: 80%;
+    height: 80%;
+}
